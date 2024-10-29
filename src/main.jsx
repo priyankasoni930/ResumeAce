@@ -8,6 +8,12 @@ import Write from "./pages/Write.jsx";
 import ResumeContents from "./pages/ResumeContents.jsx";
 import HowToDownload from "./components/HowToDownload.jsx";
 import ATSCheck from "./pages/ATSCheck.jsx";
+import SplashPage from "./pages/SplashPage.jsx";
+import PromptSelect from "./pages/PromptSelect.jsx";
+import ResumeUploadPage from "./pages/ResumeUploadPage.jsx";
+import TextInputPage from "./pages/TextInputPage.jsx";
+import Guides from "./pages/Guides.jsx";
+import Examples from "./pages/Examples.jsx";
 
 const router = createBrowserRouter([
   {
@@ -29,6 +35,30 @@ const router = createBrowserRouter([
   {
     path: "/ats-check",
     element: <ATSCheck />,
+  },
+  {
+    path: "/cover-letter/builder",
+    element: <SplashPage />,
+  },
+  {
+    path: "/your-skills",
+    element: <PromptSelect />,
+  },
+  {
+    path: "/resume-upload",
+    element: <ResumeUploadPage />,
+  },
+  {
+    path: "/text-input",
+    element: <TextInputPage />,
+  },
+  {
+    path: "/cover-letter/guides",
+    element: <Guides />,
+  },
+  {
+    path: "/cover-letter/examples",
+    element: <Examples />,
   },
 ]);
 

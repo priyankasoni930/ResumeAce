@@ -25,7 +25,7 @@ const App = () => {
               Create a professional <br /> resume easily
             </div>
             <div className="font-extralight text-base md:text-4xl text-neutral-200 py-4 mb:2 md:mb-4">
-              With this free resume build <br /> <br />
+              With this free resume builder <br /> <br />
               you can also check your resume ats score
             </div>
             <div className="flex flex-col sm:flex-row gap-4">
