@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { Alert, AlertDescription } from "@/components/ui/alert";
 
-const BACKEND_URL = "http://localhost:3000"; // Adjust this to match your backend port
+const BACKEND_URL = "https://ats-checker-pvn0.onrender.com"; // Adjust this to match your backend port
 
 export default function TextInputPage() {
   const [jobDescription, setJobDescription] = useState("");
