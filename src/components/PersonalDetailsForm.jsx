@@ -21,7 +21,7 @@ const PersonalDetailsForm = () => {
         <Label>Name</Label>
         <Input
           name='name'
-          placeholder='Jaggu Dada'
+          placeholder='John Doe'
           value={personalInfo.name}
           onChange={handleChange}
         />
@@ -39,7 +39,7 @@ const PersonalDetailsForm = () => {
         <Label>Phone</Label>
         <Input
           name='phone'
-          placeholder='+919106850991'
+          placeholder='+910000000000'
           value={personalInfo.phone}
           onChange={handleChange}
         />
@@ -48,7 +48,7 @@ const PersonalDetailsForm = () => {
         <Label>Email</Label>
         <Input
           name='email'
-          placeholder='bhidu@gmail.com'
+          placeholder='john@gmail.com'
           value={personalInfo.email}
           onChange={handleChange}
         />

@@ -53,7 +53,7 @@ const EducationForm = () => {
             <Label>College name</Label>
             <Input
               name='college'
-              placeholder='GEC Daman'
+              placeholder='College Name...'
               value={edu.college}
               onChange={(e) => handleChange(e, edu.id)}
             />
@@ -62,7 +62,7 @@ const EducationForm = () => {
             <Label>Duration</Label>
             <Input
               name='duration'
-              placeholder='2021 - 2025'
+              placeholder='2023 - 2027'
               value={edu.duration}
               onChange={(e) => handleChange(e, edu.id)}
             />
@@ -80,7 +80,7 @@ const EducationForm = () => {
             <Label>Grade</Label>
             <Input
               name='grade'
-              placeholder='7.96 CGPA'
+              placeholder='X.XX CGPA'
               value={edu.grade}
               onChange={(e) => handleChange(e, edu.id)}
             />
@@ -89,7 +89,7 @@ const EducationForm = () => {
             <Label>Location</Label>
             <Input
               name='location'
-              placeholder='Daman'
+              placeholder='location...'
               value={edu.location}
               onChange={(e) => handleChange(e, edu.id)}
             />
