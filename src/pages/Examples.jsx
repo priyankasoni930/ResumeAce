@@ -17,18 +17,7 @@ const industries = [
 ];
 
 const coverLetters = {
-  "Software Development": `[Your Name]
-[Your Address]
-[City, State, ZIP Code]
-[Your Email Address]
-[Your Phone Number]
-[Date]
-
-[Hiring Manager's Name]
-[Company Name]
-[Company Address]
-[City, State, ZIP Code]
-
+  "Software Development": `
 Dear [Hiring Manager's Name],
 
 I am writing to express my interest in the Software Developer position at [Company Name] as advertised on [Job Board/Company Website]. With a strong background in software development, a passion for problem-solving, and experience in developing web applications, I am excited about the opportunity to contribute to your team.
@@ -41,18 +30,7 @@ Thank you for considering my application. I look forward to the opportunity to d
 
 Sincerely,
 [Your Name]`,
-  Marketing: `[Your Name]
-[Your Address]
-[City, State, ZIP Code]
-[Your Email Address]
-[Your Phone Number]
-[Date]
-
-[Hiring Manager's Name]
-[Company Name]
-[Company Address]
-[City, State, ZIP Code]
-
+  Marketing: `
 Dear [Hiring Manager's Name],
 
 I am writing to apply for the Marketing Manager position at [Company Name]. With a proven track record in developing successful marketing campaigns and a passion for digital marketing, I am excited about the opportunity to contribute to your team.
@@ -65,18 +43,7 @@ Thank you for considering my application. I look forward to the opportunity to d
 
 Sincerely,
 [Your Name]`,
-  Healthcare: `[Your Name]
-[Your Address]
-[City, State, ZIP Code]
-[Your Email Address]
-[Your Phone Number]
-[Date]
-
-[Hiring Manager's Name]
-[Company Name]
-[Company Address]
-[City, State, ZIP Code]
-
+  Healthcare: `
 Dear [Hiring Manager's Name],
 
 I am writing to express my interest in the Registered Nurse position at [Hospital/Clinic Name]. With a Bachelor of Science in Nursing and over five years of experience in providing compassionate and high-quality patient care, I am excited about the opportunity to contribute to your healthcare team.
@@ -89,18 +56,7 @@ Thank you for considering my application. I look forward to the opportunity to d
 
 Sincerely,
 [Your Name]`,
-  Finance: `[Your Name]
-[Your Address]
-[City, State, ZIP Code]
-[Your Email Address]
-[Your Phone Number]
-[Date]
-
-[Hiring Manager's Name]
-[Company Name]
-[Company Address]
-[City, State, ZIP Code]
-
+  Finance: `
 Dear [Hiring Manager's Name],
 
 I am writing to express my interest in the Financial Analyst position at [Company Name]. With a Master's degree in Finance and over four years of experience in financial analysis and modeling, I am excited about the opportunity to contribute to your team.
@@ -113,18 +69,7 @@ Thank you for considering my application. I look forward to the opportunity to d
 
 Sincerely,
 [Your Name]`,
-  "Education (Teacher)": `[Your Name]
-[Your Address]
-[City, State, ZIP Code]
-[Your Email Address]
-[Your Phone Number]
-[Date]
-
-[Hiring Manager’s Name]
-[School Name]
-[School Address]
-[City, State, ZIP Code]
-
+  "Education (Teacher)": `
 Dear [Hiring Manager’s Name],
 
 I am excited to apply for the Elementary School Teacher position at [School Name]. With a Bachelor’s degree in Elementary Education and over six years of experience teaching in diverse classroom settings, I am eager to bring my passion for education and dedication to student development to your esteemed school.
@@ -137,18 +82,7 @@ Thank you for considering my application. I look forward to the opportunity to d
 
 Sincerely,
 [Your Name]`,
-  Sales: `[Your Name]
-[Your Address]
-[City, State, ZIP Code]
-[Your Email Address]
-[Your Phone Number]
-[Date]
-
-[Hiring Manager’s Name]
-[Company Name]
-[Company Address]
-[City, State, ZIP Code]
-
+  Sales: `
 Dear [Hiring Manager’s Name],
 
 I am writing to express my interest in the Sales Representative position at [Company Name]. With over five years of experience in sales and a proven track record of exceeding targets, I am excited about the opportunity to bring my skills and passion for sales to your team.
@@ -161,18 +95,7 @@ Thank you for considering my application. I look forward to the opportunity to d
 
 Sincerely,
 [Your Name]`,
-  "Graphic Design": `[Your Name]
-[Your Address]
-[City, State, ZIP Code]
-[Your Email Address]
-[Your Phone Number]
-[Date]
-
-[Hiring Manager’s Name]
-[Company Name]
-[Company Address]
-[City, State, ZIP Code]
-
+  "Graphic Design": `
 Dear [Hiring Manager’s Name],
 
 I am excited to apply for the Graphic Designer position at [Company Name]. With a Bachelor’s degree in Graphic Design and over five years of experience in creating visually compelling designs, I am eager to bring my creativity and technical skills to your team.
@@ -185,18 +108,7 @@ Thank you for considering my application. I look forward to the opportunity to d
 
 Sincerely,
 [Your Name]`,
-  "Customer Service": `[Your Name]
-[Your Address]
-[City, State, ZIP Code]
-[Your Email Address]
-[Your Phone Number]
-[Date]
-
-[Hiring Manager’s Name]
-[Company Name]
-[Company Address]
-[City, State, ZIP Code]
-
+  "Customer Service": `
 Dear [Hiring Manager’s Name],
 
 I am writing to express my interest in the Customer Service Representative position at [Company Name]. With over four years of experience in customer service and a passion for helping people, I am excited about the opportunity to join your team and provide exceptional service to your customers.
