@@ -85,7 +85,7 @@ export default function Guides() {
         <main className="flex-grow container mx-auto px-4 py-16">
           <Card className="bg-black bg-opacity-90 backdrop-blur-lg shadow-xl border-black rounded-2xl overflow-hidden max-w-3xl mx-auto">
             <CardContent className="p-8">
-              <h1 className="text-4xl font-bold text-center text-gray-800 mb-8">
+              <h1 className="text-4xl font-bold text-center text-white mb-8">
                 Guidelines for Writing a Cover Letter
               </h1>
               <div className="space-y-6">
