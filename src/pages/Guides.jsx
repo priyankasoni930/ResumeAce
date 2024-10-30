@@ -82,7 +82,7 @@ export default function Guides() {
     <div className="min-h-screen flex flex-col">
       <Navbar />
       <AuroraBackground>
-        <main className="flex-grow container mx-auto px-4 py-16">
+        <main className="flex-grow container mx-auto px-4 py-16 mt-5">
           <Card className="bg-black bg-opacity-90 backdrop-blur-lg shadow-xl border-black rounded-2xl overflow-hidden max-w-3xl mx-auto">
             <CardContent className="p-8">
               <h1 className="text-4xl font-bold text-center text-white mb-8">
