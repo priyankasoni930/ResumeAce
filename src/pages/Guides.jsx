@@ -5,7 +5,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle2 } from "lucide-react";
 
 const GuideItem = ({ title, description }) => (
-  <div className="flex items-start space-x-4 p-6 bg-white bg-opacity-50 rounded-lg shadow-md hover:shadow-lg transition-shadow duration-300 mb-4">
+  <div className="flex items-start space-x-4 p-6 bg-purple-50 rounded-3xl shadow-md hover:shadow-lg transition-shadow duration-300 mb-4">
     <CheckCircle2 className="w-6 h-6 text-green-500 flex-shrink-0 mt-1" />
     <div>
       <h3 className="font-semibold text-lg text-gray-800 mb-2">{title}</h3>
