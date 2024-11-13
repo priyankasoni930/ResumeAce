@@ -24,7 +24,7 @@ const Navbar = () => {
     <nav className="fixed top-0 bg-black left-0 right-0 z-50 w-full text-gray-800 h-16 shadow-lg">
       <div className="h-full flex  items-center justify-between w-[60%] mx-auto">
         <Link to="/" className="text-2xl font-bold text-purple-600">
-          Resume Builder
+          Resume-Ace
         </Link>
         <div className="flex items-center space-x-6">
           <div className="relative" ref={dropdownRef}>
