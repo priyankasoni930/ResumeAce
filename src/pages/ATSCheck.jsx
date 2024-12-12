@@ -38,7 +38,7 @@ export default function ATSCheck() {
 
     try {
       const response = await fetch(
-        "https://ats-checker-pvn0.onrender.com/api/ats-check",
+        "https://ats-checker-1.onrender.com/api/ats-check",
         {
           method: "POST",
           body: formData,
