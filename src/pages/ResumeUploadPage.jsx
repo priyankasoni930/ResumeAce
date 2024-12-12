@@ -49,7 +49,7 @@ export default function ResumeUploadPage() {
 
     try {
       const response = await fetch(
-        "https://ats-checker-pvn0.onrender.com/api/generate-cover-letter",
+        "https://ats-checker-1.onrender.com/api/generate-cover-letter",
         {
           method: "POST",
           body: formData,
